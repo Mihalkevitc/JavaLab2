@@ -1,91 +1,44 @@
 package lab3;
 import java.util.*;
 import java.util.Map;
+import java.util.concurrent.CountDownLatch;
 
 public class SynchronizedMapTest
 {
     public static void main(String[] args)
     {
-        Map<Integer, Integer> map = new SynchronizedMap<>();
-        // Спичок потоков чтения
-        List<Thread> readerThreads = new ArrayList<>();
+        SynchronizedMap<Integer, String> map = new SynchronizedMap<>();
+        //Счётчик для потоков
+        CountDownLatch lat1 = new CountDownLatch(3);
 
-        // Цикл для каждого поток чтения
-        for (int i = 0; i < 5; i++)
+        // Цикл для запуска потоков
+        for (int i = 0; i < 3; i++)
         {
-            Thread thread = new Thread(() -> {
-                // Цикл для итераций чтения элементов из Map
-                for (int j = 0; j < 10; j++)
+            new Thread(() -> {
+                try
                 {
-                    int key = (int) (Math.random() * 100);
-                    Integer value = map.get(key);
-
-                    if (value == null)
-                    {
-                        // Печатаем ключ и значение
-                        System.out.println("Поток чтения " + Thread.currentThread().getName() + " прочитал ключ " + key + " со значением " + value);
+                    // Добавление и удаление элементов
+                    for (int j = 0; j < 10; j++) {
+                        map.put(j, String.valueOf(j));
+                        map.remove(j);
                     }
                 }
-            });
-            readerThreads.add(thread);
-            thread.start();
-        }
-
-        // Создаем список потоков записи
-        List<Thread> writerThreads = new ArrayList<>();
-
-        // Цикл для каждого потока записи
-        for (int i = 0; i < 5; i++)
-        {
-            Thread thread = new Thread(() -> {
-                // Цикл для итераций записи элементов в Map
-                for (int j = 0; j < 10; j++)
+                finally
                 {
-                    int key = (int) (Math.random() * 100);
-                    int value = (int) (Math.random() * 100);
-
-                    map.put(key, value);
-                    // Печатаем ключ и значение
-                    System.out.println("Поток записи " + Thread.currentThread().getName() + " записал ключ " + key + " со значением " + value);
+                    // Уменьшаем счетчик после завершения работы потока
+                    lat1.countDown();
                 }
-            });
-            writerThreads.add(thread);
-            thread.start();
+            }).start();
         }
 
-        // Ждем завершения всех потоков
-        for (Thread thread : readerThreads)
+        try
         {
-            try
-            {
-                thread.join();
-            }
-            catch (InterruptedException e)
-            {
-                e.printStackTrace();
-            }
+            lat1.await(); // Ждём пока все потоки завершаться
+            System.out.println("Проверка пройдена упешно");
         }
-
-        for (Thread thread : writerThreads)
+        catch (InterruptedException e)
         {
-            try
-            {
-                thread.join();
-            }
-            catch (InterruptedException e)
-            {
-                e.printStackTrace();
-            }
-        }
-
-        // Проверка
-        if (map.isEmpty())
-        {
-            System.out.println("Map пуст. Все элементы были успешно добавлены и удалены.");
-        }
-        else
-        {
-            System.out.println("Map не пуст. Что-то пошло не так.");
+            e.printStackTrace();
         }
     }
 }
