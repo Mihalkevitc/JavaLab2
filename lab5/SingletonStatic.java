@@ -2,21 +2,21 @@ package lab5;
 
 public class SingletonStatic
 {
-    //Приватное поле класса хранит единственный экземпляр класса и инициализируется при объявлении
-    private static final SingletonStatic instance;
-
-    static
-    {
-        instance = new SingletonStatic();
-    }
-    //Конструктор приватный, чтобы предотвратить создание экземпляров извне
+    // Приватный конструктор
     private SingletonStatic()
     {
     }
-    //Метод getInstance() возвращает этот единственный экземпляр
+
+    // Вложенный статический класс, который будет загружен только при вызове getInstance()
+    private static class SingletonHolder
+    {
+        private static final SingletonStatic INSTANCE = new SingletonStatic();
+    }
+
+    // Метод возвращающий единственный экземпляр класса
     public static SingletonStatic getInstance()
     {
-        return instance;
+        return SingletonHolder.INSTANCE;
     }
 }
 
