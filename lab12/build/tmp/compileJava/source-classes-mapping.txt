@@ -1,0 +1,6 @@
+org/example/components/FileReader.java
+ org.example.components.FileReader
+org/example/components/Converter.java
+ org.example.components.Converter
+org/example/lab12Application.java
+ org.example.lab12Application
