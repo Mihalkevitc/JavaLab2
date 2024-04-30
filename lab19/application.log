@@ -1,0 +1,73 @@
+10:08:50.953 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 10648 (C:\Users\Asus\IdeaProjects\lab19\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab19)
+ 10:08:50.953 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 10:08:52.236 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 10:08:52.337 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+ 10:08:54.285 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 10:08:54.302 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 10:08:54.302 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 10:08:54.302 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 10:08:54.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 10:08:54.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3314 ms
+ 10:08:54.901 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 10:08:55.035 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 10:08:55.101 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 10:08:55.584 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 10:08:55.634 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 10:08:55.984 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a1a0bc
+ 10:08:56.001 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 10:08:56.051 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 10:08:58.249 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 10:08:58.467 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 10:08:59.366 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 10:09:00.632 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 10:09:00.766 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 10:09:00.816 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 10:09:00.832 [main] INFO  com.example.Application - Started Application in 10.578 seconds (process running for 12.625)
+ 10:09:23.705 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 10:09:23.705 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 10:09:23.705 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 10:09:23.805 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 10:09:23.905 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 10:09:34.317 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-15-22
+ 10:09:34.317 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Group IKBO-15-22 created successfully!
+ 10:09:43.513 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 10:11:14.788 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 10:11:14.788 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 10:11:14.805 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 10:11:21.535 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 15956 (C:\Users\Asus\IdeaProjects\lab19\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab19)
+ 10:11:21.535 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 10:11:22.718 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 10:11:22.818 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+ 10:11:24.617 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 10:11:24.650 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 10:11:24.650 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 10:11:24.650 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 10:11:24.767 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 10:11:24.767 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3115 ms
+ 10:11:25.351 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 10:11:25.567 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 10:11:25.650 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 10:11:26.183 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 10:11:26.250 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 10:11:26.918 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3bcedb06
+ 10:11:26.918 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 10:11:26.999 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 10:11:29.348 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 10:11:29.515 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 10:11:30.381 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 10:11:31.597 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 10:11:31.714 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 10:11:31.764 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 10:11:31.781 [main] INFO  com.example.Application - Started Application in 10.962 seconds (process running for 12.881)
+ 10:11:55.903 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 10:11:55.903 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 10:11:55.903 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+ 10:11:56.053 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 10:11:56.187 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 10:12:08.481 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-15-22
+ 10:12:08.481 [http-nio-8080-exec-2] INFO  com.example.GroupServiceImpl - Group IKBO-15-22 created successfully!
+ 10:12:10.564 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 10:12:51.722 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 10:12:51.725 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 10:12:51.741 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
