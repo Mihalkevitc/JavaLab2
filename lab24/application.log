@@ -1,0 +1,134 @@
+00:00:30.504 [Test worker] INFO  com.example.GroupServiceImpl - Deleting group with id: 1
+ 00:00:30.819 [Test worker] INFO  com.example.GroupServiceImpl - Creating group: com.example.Group@55d58825
+ 00:00:30.827 [Test worker] INFO  com.example.GroupServiceImpl - Group Test Group created successfully!
+ 00:00:30.870 [Test worker] INFO  com.example.GroupServiceImpl - Adding group with name: TestGroup
+ 00:00:30.878 [Test worker] INFO  com.example.GroupServiceImpl - Group TestGroup created successfully!
+ 00:00:33.381 [Test worker] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 00:00:33.396 [Test worker] INFO  com.example.GroupServiceImpl - Email about TestGroup {} successfully send!
+ 00:00:33.481 [Test worker] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 00:00:53.044 [Test worker] INFO  com.example.GroupServiceImpl - Deleting group with id: 1
+ 00:00:53.237 [Test worker] INFO  com.example.GroupServiceImpl - Creating group: com.example.Group@5c5d6175
+ 00:00:53.237 [Test worker] INFO  com.example.GroupServiceImpl - Group Test Group created successfully!
+ 00:00:53.267 [Test worker] INFO  com.example.GroupServiceImpl - Adding group with name: TestGroup
+ 00:00:53.277 [Test worker] INFO  com.example.GroupServiceImpl - Group TestGroup created successfully!
+ 00:00:54.890 [Test worker] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 00:00:54.890 [Test worker] INFO  com.example.GroupServiceImpl - Email about TestGroup {} successfully send!
+ 00:00:54.906 [Test worker] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 00:05:09.056 [Test worker] INFO  com.example.StudentServiceImpl - Creating student: com.example.Student@6cf0a747
+ 00:05:09.248 [Test worker] INFO  com.example.StudentServiceImpl - Filtering students by groupId: 1
+ 00:05:09.291 [Test worker] INFO  com.example.StudentServiceImpl - Adding student with firstName: John, lastName: Doe, groupId: 1
+ 00:05:09.297 [Test worker] INFO  com.example.StudentServiceImpl - Student John Doe successfully created!
+ 00:05:09.315 [Test worker] INFO  com.example.StudentServiceImpl - Email about John Doe successfully send!
+ 00:05:09.379 [Test worker] INFO  com.example.StudentServiceImpl - Deleting student with id: 1
+ 00:05:09.419 [Test worker] INFO  com.example.StudentServiceImpl - Fetching all students
+ 00:05:09.436 [Test worker] INFO  com.example.StudentServiceImpl - Filtering students by name: John Doe
+ 00:29:06.398 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:30:44.019 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:31:54.379 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:32:49.599 [Test worker] INFO  com.example.StudentServiceImpl - Creating student: com.example.Student@6cf0a747
+ 00:32:50.005 [Test worker] INFO  com.example.StudentServiceImpl - Filtering students by groupId: 1
+ 00:32:50.117 [Test worker] INFO  com.example.StudentServiceImpl - Adding student with firstName: John, lastName: Doe, groupId: 1
+ 00:32:50.127 [Test worker] INFO  com.example.StudentServiceImpl - Student John Doe successfully created!
+ 00:32:50.176 [Test worker] INFO  com.example.StudentServiceImpl - Email about John Doe successfully send!
+ 00:32:50.249 [Test worker] INFO  com.example.StudentServiceImpl - Deleting student with id: 1
+ 00:32:50.270 [Test worker] INFO  com.example.StudentServiceImpl - Fetching all students
+ 00:32:50.300 [Test worker] INFO  com.example.StudentServiceImpl - Filtering students by name: John Doe
+ 00:33:04.945 [Test worker] INFO  com.example.GroupServiceImpl - Deleting group with id: 1
+ 00:33:05.171 [Test worker] INFO  com.example.GroupServiceImpl - Creating group: com.example.Group@5c5d6175
+ 00:33:05.171 [Test worker] INFO  com.example.GroupServiceImpl - Group Test Group created successfully!
+ 00:33:05.232 [Test worker] INFO  com.example.GroupServiceImpl - Adding group with name: TestGroup
+ 00:33:05.240 [Test worker] INFO  com.example.GroupServiceImpl - Group TestGroup created successfully!
+ 00:33:08.212 [Test worker] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 00:33:08.212 [Test worker] INFO  com.example.GroupServiceImpl - Email about TestGroup {} successfully send!
+ 00:33:08.221 [Test worker] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 00:33:17.602 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:34:21.245 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:35:04.950 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:35:05.235 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.Application for test class com.example.FileManagementServiceTest
+ 00:35:06.250 [Test worker] INFO  c.example.FileManagementServiceTest - Starting FileManagementServiceTest using Java 20.0.2 with PID 528 (started by Asus in C:\Users\Asus\IdeaProjects\lab24)
+ 00:35:06.250 [Test worker] INFO  c.example.FileManagementServiceTest - No active profile set, falling back to 1 default profile: "default"
+ 00:35:08.087 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:35:08.203 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+ 00:35:11.197 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:35:11.968 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b51641
+ 00:35:11.978 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:35:12.453 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 00:35:12.757 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:35:12.919 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:35:13.976 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 00:35:14.228 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:35:16.619 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:35:16.851 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 00:35:18.423 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 00:35:18.507 [Test worker] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+ 00:35:20.125 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:35:20.357 [Test worker] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4fd2b418, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dd5ea90, org.springframework.security.web.context.SecurityContextHolderFilter@627dfd9f, org.springframework.security.web.header.HeaderWriterFilter@23674e3d, org.springframework.web.filter.CorsFilter@48c5a07d, org.springframework.security.web.csrf.CsrfFilter@27103726, org.springframework.security.web.authentication.logout.LogoutFilter@6193a9e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7abeaed0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ce593bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6980e66a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@52d202f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2083bcfd, org.springframework.security.web.access.ExceptionTranslationFilter@1c8e4810, org.springframework.security.web.access.intercept.AuthorizationFilter@616b2b2]
+ 00:35:22.756 [Test worker] INFO  c.example.FileManagementServiceTest - Started FileManagementServiceTest in 17.142 seconds (process running for 20.449)
+ 00:35:24.742 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 00:35:24.742 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 00:35:24.809 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 00:36:22.390 [Test worker] INFO  com.example.StudentServiceImpl - Creating student: com.example.Student@6cf0a747
+ 00:36:22.725 [Test worker] INFO  com.example.StudentServiceImpl - Filtering students by groupId: 1
+ 00:36:22.816 [Test worker] INFO  com.example.StudentServiceImpl - Adding student with firstName: John, lastName: Doe, groupId: 1
+ 00:36:22.816 [Test worker] INFO  com.example.StudentServiceImpl - Student John Doe successfully created!
+ 00:36:22.837 [Test worker] INFO  com.example.StudentServiceImpl - Email about John Doe successfully send!
+ 00:36:22.908 [Test worker] INFO  com.example.StudentServiceImpl - Deleting student with id: 1
+ 00:36:22.918 [Test worker] INFO  com.example.StudentServiceImpl - Fetching all students
+ 00:36:22.949 [Test worker] INFO  com.example.StudentServiceImpl - Filtering students by name: John Doe
+ 00:37:54.780 [Test worker] INFO  com.example.GroupServiceImpl - Deleting group with id: 1
+ 00:37:55.015 [Test worker] INFO  com.example.GroupServiceImpl - Creating group: com.example.Group@3b27b497
+ 00:37:55.015 [Test worker] INFO  com.example.GroupServiceImpl - Group Test Group created successfully!
+ 00:37:55.067 [Test worker] INFO  com.example.GroupServiceImpl - Adding group with name: TestGroup
+ 00:37:55.067 [Test worker] INFO  com.example.GroupServiceImpl - Group TestGroup created successfully!
+ 00:37:57.806 [Test worker] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 00:37:57.806 [Test worker] INFO  com.example.GroupServiceImpl - Email about TestGroup {} successfully send!
+ 00:37:57.822 [Test worker] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 00:38:37.602 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.FileManagementServiceTest]: FileManagementServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:38:37.887 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.Application for test class com.example.FileManagementServiceTest
+ 00:38:38.788 [Test worker] INFO  c.example.FileManagementServiceTest - Starting FileManagementServiceTest using Java 20.0.2 with PID 13784 (started by Asus in C:\Users\Asus\IdeaProjects\lab24)
+ 00:38:38.788 [Test worker] INFO  c.example.FileManagementServiceTest - No active profile set, falling back to 1 default profile: "default"
+ 00:38:40.542 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:38:40.642 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+ 00:38:43.133 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:38:43.782 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@580ffea
+ 00:38:43.782 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:38:44.192 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 00:38:44.455 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:38:44.599 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:38:45.569 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 00:38:45.748 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:38:47.859 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:38:48.022 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 00:38:49.294 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 00:38:49.395 [Test worker] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+ 00:38:50.783 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:38:50.984 [Test worker] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@161974d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d18b61, org.springframework.security.web.context.SecurityContextHolderFilter@22912968, org.springframework.security.web.header.HeaderWriterFilter@4951dc8c, org.springframework.web.filter.CorsFilter@2fba15c5, org.springframework.security.web.csrf.CsrfFilter@19305a7c, org.springframework.security.web.authentication.logout.LogoutFilter@70b437bb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56929ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7abeaed0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@482040a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4b391e45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ae5f795, org.springframework.security.web.access.ExceptionTranslationFilter@7536ef0f, org.springframework.security.web.access.intercept.AuthorizationFilter@3868c92e]
+ 00:38:52.720 [Test worker] INFO  c.example.FileManagementServiceTest - Started FileManagementServiceTest in 14.517 seconds (process running for 17.814)
+ 00:38:54.494 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 00:38:54.494 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 00:38:54.525 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 00:39:48.975 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 00:39:49.342 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.Application for test class com.example.ApplicationTests
+ 00:39:50.297 [Test worker] INFO  com.example.ApplicationTests - Starting ApplicationTests using Java 20.0.2 with PID 20628 (started by Asus in C:\Users\Asus\IdeaProjects\lab24)
+ 00:39:50.297 [Test worker] INFO  com.example.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+ 00:39:52.093 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 00:39:52.178 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+ 00:39:54.685 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 00:39:55.349 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7440265c
+ 00:39:55.349 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 00:39:55.796 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 00:39:56.057 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 00:39:56.205 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 00:39:57.147 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 00:39:57.361 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 00:39:59.609 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 00:39:59.772 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 00:40:00.929 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 00:40:01.045 [Test worker] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+ 00:40:02.976 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 00:40:03.176 [Test worker] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ec63b9a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f1a4d61, org.springframework.security.web.context.SecurityContextHolderFilter@6b6b4177, org.springframework.security.web.header.HeaderWriterFilter@7e047d85, org.springframework.web.filter.CorsFilter@21c7415e, org.springframework.security.web.csrf.CsrfFilter@5b9aac82, org.springframework.security.web.authentication.logout.LogoutFilter@6ca9f1d0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@42c2a1da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a0161ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64aab3fd, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@70882cb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f1581bb, org.springframework.security.web.access.ExceptionTranslationFilter@3bfbe2a6, org.springframework.security.web.access.intercept.AuthorizationFilter@5ebd80f8]
+ 00:40:05.617 [Test worker] INFO  com.example.ApplicationTests - Started ApplicationTests in 15.974 seconds (process running for 19.329)
+ 00:40:09.393 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 00:40:09.401 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 00:40:09.485 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
