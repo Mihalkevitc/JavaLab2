@@ -1,0 +1,870 @@
+13:31:57.268 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 14740 (C:\Users\Asus\IdeaProjects\lab213\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab213)
+ 13:31:57.285 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 13:31:58.561 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 13:31:58.645 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+ 13:32:00.436 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 13:32:00.458 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 13:32:00.462 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 13:32:00.463 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 13:32:00.619 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 13:32:00.620 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3160 ms
+ 13:32:01.287 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 13:32:01.471 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 13:32:01.559 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 13:32:02.075 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 13:32:02.136 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 13:32:02.516 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63d3c9dc
+ 13:32:02.519 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 13:32:02.602 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 13:32:04.756 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 13:32:04.906 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 13:32:05.767 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'studentService': Error creating bean with name 'studentServiceImpl' defined in file [C:\Users\Asus\IdeaProjects\lab213\build\classes\java\main\com\example\StudentServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'com.example.EmailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+ 13:32:05.768 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 13:32:05.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 13:32:05.782 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 13:32:05.786 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+ 13:32:05.829 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 13:32:05.872 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.example.StudentServiceImpl required a bean of type 'com.example.EmailService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.EmailService' in your configuration.
+
+ 13:33:57.330 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 6832 (C:\Users\Asus\IdeaProjects\lab213\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab213)
+ 13:33:57.334 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 13:33:58.659 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 13:33:58.755 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+ 13:34:00.569 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 13:34:00.588 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 13:34:00.592 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 13:34:00.592 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 13:34:00.702 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 13:34:00.702 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3205 ms
+ 13:34:01.264 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 13:34:01.399 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 13:34:01.464 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 13:34:01.928 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 13:34:01.978 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 13:34:02.351 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@309cf657
+ 13:34:02.354 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 13:34:02.419 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 13:34:04.543 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 13:34:04.704 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 13:34:05.546 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 13:34:06.755 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 13:34:06.878 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 13:34:06.938 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 13:34:06.994 [main] INFO  com.example.Application - Started Application in 10.319 seconds (process running for 11.947)
+ 13:34:07.780 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 13:34:07.781 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 13:34:07.783 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 13:34:13.455 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 13:34:13.561 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 13:34:13.570 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.GroupServiceImpl.addGroup(String) executed in 113 ms
+ 13:35:05.657 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:35:05.658 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Adding student with firstName: Vlad, lastName: Mihalkevitc, groupId: 1
+ 13:35:05.786 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Student Vlad Mihalkevitc successfully created!
+ 13:35:06.836 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in 1180 ms
+ 13:35:06.836 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:47:59.115 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 13:47:59.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 13:47:59.131 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 13:48:10.013 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 12204 (C:\Users\Asus\IdeaProjects\lab213\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab213)
+ 13:48:10.018 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 13:48:11.654 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 13:48:11.739 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+ 13:48:13.544 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 13:48:13.563 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 13:48:13.566 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 13:48:13.566 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 13:48:13.678 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 13:48:13.679 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3497 ms
+ 13:48:14.251 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 13:48:14.373 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 13:48:14.440 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 13:48:15.027 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 13:48:15.078 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 13:48:15.451 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31e22365
+ 13:48:15.454 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 13:48:15.518 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 13:48:17.693 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 13:48:17.851 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 13:48:18.756 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 13:48:20.388 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 13:48:20.635 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 13:48:20.676 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 13:48:20.703 [main] INFO  com.example.Application - Started Application in 11.482 seconds (process running for 15.092)
+ 13:48:21.007 [RMI TCP Connection(2)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 13:48:21.008 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 13:48:21.012 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 13:48:26.291 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 13:48:26.378 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 13:48:27.263 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Email about IKBO-20-22 {} successfully send!
+ 13:48:27.271 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.GroupServiceImpl.addGroup(String) executed in 978 ms
+ 13:48:31.289 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:48:31.290 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Adding student with firstName: Vlad, lastName: Mihalkevitc, groupId: 1
+ 13:48:31.396 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Student Vlad Mihalkevitc successfully created!
+ 13:48:31.896 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Email about Vlad Mihalkevitc successfully send!
+ 13:48:31.898 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in 609 ms
+ 13:48:31.899 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:53:30.486 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 13:53:30.490 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 13:53:30.507 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 13:53:38.857 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 17424 (C:\Users\Asus\IdeaProjects\lab213\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab213)
+ 13:53:38.863 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 13:53:40.441 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 13:53:40.544 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+ 13:53:43.152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 13:53:43.174 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 13:53:43.177 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 13:53:43.178 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 13:53:43.305 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 13:53:43.305 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4265 ms
+ 13:53:43.871 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 13:53:44.044 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 13:53:44.124 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 13:53:44.648 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 13:53:44.709 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 13:53:45.104 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f01fc6d
+ 13:53:45.107 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 13:53:45.188 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 13:53:47.340 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 13:53:47.501 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 13:53:48.314 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 13:53:49.590 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 13:53:49.701 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 13:53:49.747 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 13:53:49.769 [main] INFO  com.example.Application - Started Application in 11.728 seconds (process running for 13.864)
+ 13:54:06.771 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 13:54:06.772 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 13:54:06.773 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 13:54:06.882 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 13:54:06.977 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 13:54:07.932 [http-nio-8080-exec-1] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 13:54:07.932 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Email about IKBO-20-22 {} successfully send!
+ 13:54:07.940 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.GroupServiceImpl.addGroup(String) executed in 1057 ms
+ 13:54:12.531 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:54:12.531 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Adding student with firstName: Vlad, lastName: Mihalkevitc, groupId: 1
+ 13:54:12.655 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Student Vlad Mihalkevitc successfully created!
+ 13:54:13.086 [http-nio-8080-exec-2] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 13:54:13.087 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Email about Vlad Mihalkevitc successfully send!
+ 13:54:13.087 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in 557 ms
+ 13:54:13.087 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:56:06.068 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 13:56:06.072 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 13:56:06.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 13:56:14.210 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 9120 (C:\Users\Asus\IdeaProjects\lab213\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab213)
+ 13:56:14.213 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 13:56:15.475 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 13:56:15.556 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+ 13:56:17.449 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 13:56:17.478 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 13:56:17.481 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 13:56:17.482 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 13:56:17.644 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 13:56:17.644 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3294 ms
+ 13:56:18.187 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 13:56:18.318 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 13:56:18.381 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 13:56:18.882 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 13:56:18.930 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 13:56:19.298 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bea7b0
+ 13:56:19.301 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 13:56:19.361 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 13:56:21.618 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 13:56:21.852 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 13:56:22.661 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 13:56:23.922 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 13:56:24.026 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 13:56:24.062 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 13:56:24.084 [main] INFO  com.example.Application - Started Application in 10.516 seconds (process running for 13.967)
+ 13:56:35.799 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 13:56:35.799 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 13:56:35.801 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 13:56:35.911 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 13:56:35.994 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 13:56:36.946 [http-nio-8080-exec-1] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 13:56:36.947 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Email about IKBO-20-22 {} successfully send!
+ 13:56:36.967 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.GroupServiceImpl.addGroup(String) executed in 1051 ms
+ 13:56:38.353 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:56:38.353 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Adding student with firstName: Vlad, lastName: Mihalkevitc, groupId: 1
+ 13:56:38.444 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Student Vlad Mihalkevitc successfully created!
+ 13:56:38.930 [http-nio-8080-exec-2] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 13:56:38.931 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Email about Vlad Mihalkevitc successfully send!
+ 13:56:38.931 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in 579 ms
+ 13:56:38.931 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 13:56:39.803 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 13:56:39.946 [http-nio-8080-exec-3] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 143 ms
+ 13:56:59.974 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 13:56:59.977 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 13:56:59.995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 14:01:56.233 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 17580 (C:\Users\Asus\IdeaProjects\lab21\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab21)
+ 14:01:56.236 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 14:01:57.480 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 14:01:57.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+ 14:01:59.347 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 14:01:59.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 14:01:59.367 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 14:01:59.368 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 14:01:59.474 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 14:01:59.475 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3050 ms
+ 14:02:00.003 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 14:02:00.147 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 14:02:00.221 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 14:02:00.721 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 14:02:00.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 14:02:01.158 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b058bfd
+ 14:02:01.161 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 14:02:01.223 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 14:02:03.300 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 14:02:03.478 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 14:02:04.333 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 14:02:05.551 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 14:02:05.657 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 14:02:05.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 14:02:05.716 [main] INFO  com.example.Application - Started Application in 10.228 seconds (process running for 13.659)
+ 14:02:15.828 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 14:02:15.828 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 14:02:15.830 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 14:02:15.951 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 14:02:16.051 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 14:02:17.173 [http-nio-8080-exec-1] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 14:02:17.173 [http-nio-8080-exec-1] INFO  com.example.GroupServiceImpl - Email about IKBO-20-22 {} successfully send!
+ 14:02:17.189 [http-nio-8080-exec-1] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.GroupServiceImpl.addGroup(String) executed in 1235 ms
+ 14:02:17.414 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 14:02:17.414 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Adding student with firstName: Vlad, lastName: Mihalkevitc, groupId: 1
+ 14:02:17.590 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Student Vlad Mihalkevitc successfully created!
+ 14:02:18.328 [http-nio-8080-exec-2] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 14:02:18.328 [http-nio-8080-exec-2] INFO  com.example.StudentServiceImpl - Email about Vlad Mihalkevitc successfully send!
+ 14:02:18.329 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in 916 ms
+ 14:02:18.330 [http-nio-8080-exec-2] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 14:02:20.883 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Adding group with name: IKBO-20-22
+ 14:02:20.887 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Group IKBO-20-22 created successfully!
+ 14:02:21.392 [http-nio-8080-exec-3] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 14:02:21.393 [http-nio-8080-exec-3] INFO  com.example.GroupServiceImpl - Email about IKBO-20-22 {} successfully send!
+ 14:02:21.394 [http-nio-8080-exec-3] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.GroupServiceImpl.addGroup(String) executed in 510 ms
+ 14:02:24.769 [http-nio-8080-exec-4] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 14:02:24.770 [http-nio-8080-exec-4] INFO  com.example.StudentServiceImpl - Adding student with firstName: Vlad, lastName: Mihalkevitc, groupId: 1
+ 14:02:24.780 [http-nio-8080-exec-4] INFO  com.example.StudentServiceImpl - Student Vlad Mihalkevitc successfully created!
+ 14:02:25.282 [http-nio-8080-exec-4] INFO  com.example.EmailService - Email sent successfully to: Mihalkevitc.23V@yandex.ru
+ 14:02:25.283 [http-nio-8080-exec-4] INFO  com.example.StudentServiceImpl - Email about Vlad Mihalkevitc successfully send!
+ 14:02:25.283 [http-nio-8080-exec-4] INFO  c.example.ExecutionTimeLoggerAspect - ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long) executed in 514 ms
+ 14:02:25.284 [http-nio-8080-exec-4] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: ResponseEntity com.example.StudentServiceImpl.addStudent(String,String,Long)
+ 14:06:06.364 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 14:06:06.367 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 14:06:06.381 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 14:53:40.804 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 8980 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 14:53:40.810 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 14:53:42.377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 14:53:42.471 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+ 14:53:44.508 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 14:53:44.528 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 14:53:44.532 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 14:53:44.533 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 14:53:44.663 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 14:53:44.664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3705 ms
+ 14:53:45.484 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 14:53:45.663 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 14:53:45.772 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 14:53:46.384 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 14:53:46.445 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 14:53:46.911 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c5f12e
+ 14:53:46.915 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 14:53:47.043 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 14:53:49.808 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 14:53:50.058 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 14:53:51.287 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 14:53:53.391 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 14:53:53.588 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 14:53:53.653 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 14:53:53.697 [main] INFO  com.example.Application - Started Application in 13.95 seconds (process running for 19.803)
+ 14:53:54.397 [RMI TCP Connection(2)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 14:53:54.398 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 14:53:54.401 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 15:04:47.545 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:04:47.555 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:04:47.602 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:05:30.711 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 17936 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:05:30.763 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:05:32.160 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:05:32.247 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+ 15:05:34.488 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:05:34.526 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:05:34.534 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:05:34.535 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:05:34.694 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:05:34.697 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3750 ms
+ 15:05:35.446 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:05:35.620 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:05:35.707 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:05:36.309 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:05:36.374 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:05:36.819 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c000cc4
+ 15:05:36.822 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:05:36.904 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:05:40.209 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:05:40.366 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:05:41.252 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:05:42.783 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:05:42.920 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:05:42.961 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:05:42.984 [main] INFO  com.example.Application - Started Application in 13.096 seconds (process running for 16.532)
+ 15:05:43.596 [RMI TCP Connection(1)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:05:43.596 [RMI TCP Connection(1)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:05:43.600 [RMI TCP Connection(1)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 15:06:10.809 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:06:10.812 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:06:10.834 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:06:19.951 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 16280 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:06:19.955 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:06:21.879 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:06:21.972 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+ 15:06:23.945 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:06:23.965 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:06:23.968 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:06:23.968 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:06:24.094 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:06:24.094 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3895 ms
+ 15:06:24.707 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:06:24.836 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:06:24.900 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:06:25.368 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:06:25.419 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:06:25.854 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16ef1160
+ 15:06:25.857 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:06:25.918 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:06:28.021 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:06:28.194 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:06:29.057 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:06:30.502 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:06:30.737 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:06:30.818 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:06:30.853 [main] INFO  com.example.Application - Started Application in 11.597 seconds (process running for 13.67)
+ 15:18:26.103 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:18:26.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:18:26.165 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:18:34.531 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 6624 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:18:34.534 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:18:35.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:18:36.056 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 2 JPA repository interfaces.
+ 15:18:37.844 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:18:37.861 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:18:37.865 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:18:37.865 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:18:37.991 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:18:37.992 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3291 ms
+ 15:18:38.585 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:18:38.706 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:18:38.771 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:18:39.233 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:18:39.285 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:18:39.780 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23f8036d
+ 15:18:39.783 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:18:39.882 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:18:42.237 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:18:42.427 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:18:43.296 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:18:44.534 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:18:44.698 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:18:44.732 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:18:44.761 [main] INFO  com.example.Application - Started Application in 11.02 seconds (process running for 12.728)
+ 15:18:45.336 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:18:45.336 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:18:45.340 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 15:19:11.541 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:19:11.770 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 227 ms
+ 15:27:25.662 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:27:25.689 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:27:25.774 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:28:17.917 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 9820 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:28:17.921 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:28:19.202 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:28:19.284 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+ 15:28:21.097 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:28:21.113 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:28:21.117 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:28:21.117 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:28:21.236 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:28:21.237 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3139 ms
+ 15:28:21.808 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:28:21.958 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:28:22.030 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:28:22.468 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:28:22.524 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:28:22.895 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2579d8a
+ 15:28:22.898 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:28:22.957 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:28:25.073 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:28:25.232 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:28:26.087 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:28:27.304 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:28:27.466 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:28:27.498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:28:27.537 [main] INFO  com.example.Application - Started Application in 10.452 seconds (process running for 12.532)
+ 15:28:27.854 [RMI TCP Connection(2)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:28:27.854 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:28:27.858 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 15:28:53.669 [RMI TCP Connection(7)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:28:53.891 [RMI TCP Connection(7)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 220 ms
+ 15:28:54.017 [RMI TCP Connection(7)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:28:54.017 [RMI TCP Connection(7)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:28:54.035 [RMI TCP Connection(7)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 18 ms
+ 15:28:54.035 [RMI TCP Connection(7)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:32:22.402 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:32:22.407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:32:22.429 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:32:31.731 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 16260 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:32:31.735 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:32:33.025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:32:33.108 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+ 15:32:35.072 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:32:35.091 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:32:35.093 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:32:35.094 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:32:35.211 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:32:35.211 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3305 ms
+ 15:32:35.746 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:32:35.864 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:32:35.927 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:32:36.370 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:32:36.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:32:36.802 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3af39e7b
+ 15:32:36.805 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:32:36.864 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:32:39.205 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:32:39.452 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:32:40.289 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:32:41.470 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:32:41.634 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:32:41.668 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:32:41.693 [main] INFO  com.example.Application - Started Application in 10.619 seconds (process running for 12.396)
+ 15:32:42.098 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:32:42.098 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:32:42.102 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+ 15:33:03.684 [RMI TCP Connection(5)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:33:03.901 [RMI TCP Connection(5)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 216 ms
+ 15:33:11.067 [RMI TCP Connection(6)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:33:11.076 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 9 ms
+ 15:33:23.165 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:33:23.170 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:33:23.201 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:33:30.742 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 1300 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:33:30.746 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:33:31.968 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:33:32.050 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+ 15:33:33.753 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:33:33.770 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:33:33.773 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:33:33.773 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:33:33.883 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:33:33.884 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2963 ms
+ 15:33:34.434 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:33:34.596 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:33:34.687 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:33:35.219 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:33:35.298 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:33:35.720 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@417446d9
+ 15:33:35.724 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:33:35.782 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:33:37.789 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:33:37.967 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:33:38.869 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:33:40.067 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:33:40.226 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:33:40.261 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:33:40.286 [main] INFO  com.example.Application - Started Application in 10.36 seconds (process running for 12.138)
+ 15:33:40.932 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:33:40.933 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:33:40.936 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 15:34:03.350 [RMI TCP Connection(6)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:34:03.563 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 211 ms
+ 15:36:16.825 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:36:16.831 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:36:16.861 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:36:24.827 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 18036 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:36:24.830 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:36:26.290 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:36:26.410 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+ 15:36:28.141 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:36:28.158 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:36:28.161 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:36:28.162 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:36:28.271 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:36:28.271 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3263 ms
+ 15:36:28.861 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:36:28.984 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:36:29.045 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:36:29.502 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:36:29.551 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:36:29.922 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26a9c6df
+ 15:36:29.925 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:36:29.983 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:36:32.005 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:36:32.186 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:36:33.037 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:36:34.282 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:36:34.422 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:36:34.457 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:36:34.480 [main] INFO  com.example.Application - Started Application in 10.29 seconds (process running for 12.066)
+ 15:36:35.223 [RMI TCP Connection(5)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:36:35.224 [RMI TCP Connection(5)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:36:35.227 [RMI TCP Connection(5)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 15:36:54.863 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:36:55.089 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 224 ms
+ 15:38:46.802 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:38:46.805 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:38:46.832 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:38:56.358 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 1568 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:38:56.389 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:38:57.718 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:38:57.811 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+ 15:39:00.005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:39:00.035 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:39:00.039 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:39:00.040 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:39:00.185 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:39:00.186 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3580 ms
+ 15:39:00.861 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:39:00.993 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:39:01.056 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:39:01.636 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:39:01.698 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:39:02.115 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4805069b
+ 15:39:02.120 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:39:02.225 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:39:04.475 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:39:04.627 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:39:05.483 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:39:06.697 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:39:06.853 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:39:06.888 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:39:06.915 [main] INFO  com.example.Application - Started Application in 11.44 seconds (process running for 14.696)
+ 15:39:07.191 [RMI TCP Connection(2)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:39:07.191 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:39:07.194 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 15:39:25.627 [RMI TCP Connection(6)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:39:25.852 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 223 ms
+ 15:39:26.036 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:39:26.037 [RMI TCP Connection(6)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:39:26.067 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 31 ms
+ 15:39:26.068 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:40:23.774 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:40:23.780 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:40:23.825 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:40:31.429 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 60 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:40:31.433 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:40:32.634 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:40:32.715 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+ 15:40:34.465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:40:34.485 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:40:34.489 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:40:34.489 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:40:34.633 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:40:34.633 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3028 ms
+ 15:40:35.479 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:40:35.613 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:40:35.682 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:40:36.215 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:40:36.280 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:40:36.720 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@85cd413
+ 15:40:36.723 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:40:36.795 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:40:39.594 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:40:39.735 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:40:40.578 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:40:41.787 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:40:41.918 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:40:41.958 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:40:41.982 [main] INFO  com.example.Application - Started Application in 11.215 seconds (process running for 12.943)
+ 15:40:42.837 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:40:42.838 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:40:42.841 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 15:41:05.888 [RMI TCP Connection(6)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:41:06.105 [RMI TCP Connection(6)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 214 ms
+ 15:43:54.416 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:43:54.419 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:43:54.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:44:02.752 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 14188 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:44:02.757 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:44:04.194 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:44:04.362 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 2 JPA repository interfaces.
+ 15:44:07.447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:44:07.493 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:44:07.498 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:44:07.500 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:44:07.793 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:44:07.793 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4806 ms
+ 15:44:08.534 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:44:08.655 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:44:08.722 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:44:09.181 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:44:09.237 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:44:09.615 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26bce60d
+ 15:44:09.618 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:44:09.676 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:44:11.732 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:44:11.916 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:44:12.762 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:44:14.068 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:44:14.190 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:44:14.222 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:44:14.245 [main] INFO  com.example.Application - Started Application in 12.235 seconds (process running for 13.931)
+ 15:44:14.588 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:44:14.588 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:44:14.591 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 15:44:33.904 [RMI TCP Connection(5)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:44:34.130 [RMI TCP Connection(5)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 225 ms
+ 15:46:47.320 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:46:47.324 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:46:47.352 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:46:55.962 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 14136 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:46:55.967 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:46:57.590 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:46:57.674 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+ 15:46:59.690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:46:59.709 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:46:59.712 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:46:59.712 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:46:59.822 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:46:59.822 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3693 ms
+ 15:47:00.361 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:47:00.487 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:47:00.551 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:47:01.010 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:47:01.060 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:47:01.430 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c5f12e
+ 15:47:01.434 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:47:01.494 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:47:03.714 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:47:03.888 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:47:04.742 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:47:06.089 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:47:06.301 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:47:06.346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:47:06.377 [main] INFO  com.example.Application - Started Application in 11.19 seconds (process running for 12.851)
+ 15:47:06.759 [RMI TCP Connection(2)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:47:06.760 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:47:06.764 [RMI TCP Connection(2)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+ 15:47:13.891 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:47:13.894 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:47:13.908 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 15:47:21.326 [main] INFO  com.example.Application - Starting Application using Java 20.0.2 with PID 17700 (C:\Users\Asus\IdeaProjects\lab22\build\classes\java\main started by Asus in C:\Users\Asus\IdeaProjects\lab22)
+ 15:47:21.330 [main] INFO  com.example.Application - No active profile set, falling back to 1 default profile: "default"
+ 15:47:22.710 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 15:47:22.796 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+ 15:47:24.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 15:47:24.580 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+ 15:47:24.583 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 15:47:24.584 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+ 15:47:24.693 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 15:47:24.694 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3190 ms
+ 15:47:25.238 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 15:47:25.367 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+ 15:47:25.433 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+ 15:47:25.897 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 15:47:25.948 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 15:47:26.330 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7747cc1b
+ 15:47:26.334 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 15:47:26.394 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 15:47:28.493 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 15:47:28.705 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 15:47:29.610 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 15:47:30.826 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 15:47:30.954 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+ 15:47:30.988 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+ 15:47:31.011 [main] INFO  com.example.Application - Started Application in 10.349 seconds (process running for 11.981)
+ 15:47:31.678 [RMI TCP Connection(3)-192.168.112.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15:47:31.679 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 15:47:31.682 [RMI TCP Connection(3)-192.168.112.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 15:47:55.533 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.GroupServiceImpl - Fetching all groups
+ 15:47:55.753 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.GroupServiceImpl.getAllGroups() executed in 217 ms
+ 15:47:55.790 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.790 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.808 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 18 ms
+ 15:47:55.808 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.813 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.813 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.818 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:55.819 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.823 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.824 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.832 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 9 ms
+ 15:47:55.832 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.836 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.837 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.842 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.842 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.847 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.847 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.853 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.853 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.858 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.858 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.866 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 8 ms
+ 15:47:55.866 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.871 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.871 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.875 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:55.876 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.880 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.880 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.885 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:55.886 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.891 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.891 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.897 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.897 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.902 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.903 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.908 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.908 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.913 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.913 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.919 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.919 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.924 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.924 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.930 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.931 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.935 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.936 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.941 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.941 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.945 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.945 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.950 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:55.950 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.959 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.959 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.965 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:55.965 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.974 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:55.974 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:55.990 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 16 ms
+ 15:47:55.990 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.004 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.004 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.013 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 9 ms
+ 15:47:56.014 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.024 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.025 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.029 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:56.030 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.036 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.037 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.044 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 8 ms
+ 15:47:56.045 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.051 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.051 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.059 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 8 ms
+ 15:47:56.059 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.068 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.069 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.077 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 9 ms
+ 15:47:56.077 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.082 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.082 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.107 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 25 ms
+ 15:47:56.108 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.116 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.117 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.120 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.121 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.125 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.125 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.131 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:56.131 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.137 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.138 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.141 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.142 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.145 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.145 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.148 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 3 ms
+ 15:47:56.148 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.151 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.152 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.154 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 3 ms
+ 15:47:56.154 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.157 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.158 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.160 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 3 ms
+ 15:47:56.161 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.165 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.166 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.170 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:56.170 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.174 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.174 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.178 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 3 ms
+ 15:47:56.178 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.182 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.182 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.187 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:56.187 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.192 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.192 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.197 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 5 ms
+ 15:47:56.198 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.202 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.203 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.206 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.206 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.211 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.211 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.215 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.215 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.219 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.219 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.222 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 3 ms
+ 15:47:56.223 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.227 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.227 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.231 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.231 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.236 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.236 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.239 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 3 ms
+ 15:47:56.240 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.244 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.245 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.248 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.248 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.254 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.254 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.260 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:56.260 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.265 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.265 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.271 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:56.271 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.276 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.276 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.282 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 6 ms
+ 15:47:56.283 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.289 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.289 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.292 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.293 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.297 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - Before executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:47:56.297 [RMI TCP Connection(8)-192.168.112.1] INFO  com.example.StudentServiceImpl - Fetching all students
+ 15:47:56.301 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - List com.example.StudentServiceImpl.getAllStudents() executed in 4 ms
+ 15:47:56.301 [RMI TCP Connection(8)-192.168.112.1] INFO  c.example.ExecutionTimeLoggerAspect - After executing method: List com.example.StudentServiceImpl.getAllStudents()
+ 15:48:08.054 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 15:48:08.059 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 15:48:08.090 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 
