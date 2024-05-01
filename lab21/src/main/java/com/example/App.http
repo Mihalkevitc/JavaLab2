@@ -1,0 +1,39 @@
+GET http://localhost:8080/groups/add?groupName=IKBO-20-22&id=1
+
+###
+
+GET http://localhost:8080/groups/add?groupName=IKBO-15-22&id=2
+
+###
+
+GET http://localhost:8080/groups
+
+###
+
+GET http://localhost:8080/students/add?firstName=Vlad&lastName=Mihalkevitc&groupId=1
+
+###
+
+GET http://localhost:8080/students/add?firstName=Tany&lastName=Delvine&groupId=1
+
+###
+
+GET http://localhost:8080/students/add?firstName=Tim&lastName=Kravich&groupId=2
+
+###
+
+GET http://localhost:8080/students/add?firstName=Saha&lastName=Polich&groupId=2
+
+###
+
+GET http://localhost:8080/students
+
+### Фильтрация студентов по имени ###
+GET http://localhost:8080/students/filterByName?firstName=Vlad&lastName=Mihalkevitc
+
+### Фильтрация студентов по группе ###
+GET http://localhost:8080/students/filterByGroup?groupId=1
+
+
+
+
